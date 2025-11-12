@@ -1,10 +1,13 @@
 import React from "react";
+import StartJournalButton from "./components/StartJournalButton";
 
 function App() {
   return (
     <div>
-      <h1>Emotion Detection Journal</h1>
-      <p>Welcome! Start your first journal entry.</p>
+      <h1 style={{ textAlign: "center", marginTop: "20px" }}>
+        Emotion Detection Journal
+      </h1>
+      <StartJournalButton />
     </div>
   );
 }
